@@ -1,0 +1,46 @@
+body {
+  background-color: grey;
+  margin-top: 50px;
+}
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+#catResult {
+  background-color: wheat;
+  width: 500px;
+  height: 400px;
+  margin-right: 20px;
+}
+#dogResult {
+  background-color: wheat;
+  width: 500px;
+  height: 400px;
+}
+.button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+#catBtn {
+  border-radius: 5px;
+  width: 500px;
+  margin-right: 20px;
+}
+#dogBtn {
+  border-radius: 5px;
+
+  width: 500px;
+}
+button:active {
+  transform: scale(0.97);
+}
+button:focus {
+  outline: none;
+}
